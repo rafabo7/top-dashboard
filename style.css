@@ -1,7 +1,15 @@
+:root {
+    --primary-color: #5EAAA8;
+    --second-color: #EB5E0B;
+    --third-color: #A3D2CA;
+    --fourth-color: #F8F1F1;
+    --no-black: #222831;
 
+}
 
 html {
     font-size: 18px;
+    color: var(--no-black);
 }
 
 p, li {
@@ -31,10 +39,11 @@ header {
 .profile {
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
     align-items: center;
 }
 
-.header-top .profile {
+.header-top .profile img {
     width: 42px;
     border-radius: 50%;
 }
