@@ -24,6 +24,13 @@ ul {
     margin: 0;
 }
 
+button {
+    background-color: unset;
+    font-size: unset;
+    border: unset;
+    cursor: pointer;
+}
+
 body {
     display: grid;
     grid-template-columns: minmax(230px, 1fr) minmax(715px ,4fr);
@@ -116,11 +123,15 @@ header {
 }
 
 .panel li {
+    width: max(30%, 88px);
+}
+
+.panel button {
     text-align: center;
     font-weight: bold;
     padding: 12px 0;
     border-radius: 32px;
-    width: max(25%, 87px);
+    width: 90%;
     background-color: var(--second-color);
 }
 
