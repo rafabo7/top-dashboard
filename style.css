@@ -179,6 +179,11 @@ main {
     display: grid;
     grid-template-columns: 3fr 1fr;
     gap: 14px;
+    background-color: var(--fourth-color);
+}
+
+main h3 {
+    font-size: 1.6rem;
 }
 
 .projects {
@@ -195,10 +200,12 @@ main {
 }
 
 .projects .card {
-    border: 2px solid gray;
     border-left: 10px solid var(--primary-color);
     border-radius: 10px;
     padding: 8px;
+    background-color: white;
+    box-shadow: 0px 2px 4px var(--no-black);
+
 }
 
 .projects .card-title {
@@ -222,6 +229,32 @@ main {
 .trends {
     grid-column: 2;
     grid-row: 1;
+}
+
+.inner-trends {
+    display: grid;
+    grid-template-rows: 1fr;
+    align-items: center;
+    background-color: white;
+    border-radius: 5%;
+    box-shadow: 0px 2px 4px var(--no-black);
+}
+
+.inner-trends .trends-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+    padding: 8px;
+}
+
+.inner-trends .trends-item img {
+    width: 48px;
+    border-radius: 50%;
+}
+
+.trends-item .trend-caption h4, p {
+    margin: 8px 0;
 }
 
 .announcements {
