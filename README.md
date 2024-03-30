@@ -11,6 +11,6 @@ It is orignally built using HTML5 and CSS3, encouraging the use of CSS grid as i
 
 ### Credits
 - SVG icons from [Pictogramers](https://pictogrammers.com/library/mdi/)
-- Girl portrait from Štefan [Štefančík's Unsplash profile](https://unsplash.com/es/@cikstefan)
+- Girl portrait from [Štefan Štefančík's Unsplash profile](https://unsplash.com/es/@cikstefan)
 - Fire flower favicon from [dvdcar](https://www.favicon.cc/?action=icon_list&user_id=652573)
 
